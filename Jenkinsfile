@@ -22,9 +22,11 @@ pipeline {
     stage('SonarQube Scan') {
       steps {
         sh """
+
 mvn sonar:sonar \
-  -Dsonar.host.url=http://34.201.104.106:9000 \
+  -Dsonar.host.url=http://34.228.153.0:9000 \
   -Dsonar.login=8fe5309cff441df1946501ef3b6bc9e85efee570
+
 """
       }
     }
