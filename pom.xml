@@ -42,8 +42,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>10</source>
-          <target>10</target>
+          <source>4</source>
+          <target>4</target>
         </configuration>
       </plugin>
 
@@ -101,7 +101,7 @@
 
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>17.0.0</version>
+          <version>3.9.0</version>
         </plugin>
 
         <plugin>
